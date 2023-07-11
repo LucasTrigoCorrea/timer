@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(0, 0, 0);
+  --primary-color-hover: rgba(0, 255, 251, 0.37);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba(0, 255, 251, 0.37);
+  backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 2px );
+  border-radius: 10px;
+  padding: 25px 60px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.container h1{
+  font-size: 3rem ;
+}
+
+button {
+  border-radius: 5px;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 0.8rem;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+  margin-top: 30px;
+  border: none;
+}
+
+button:hover {
+  background: var(--primary-color-hover);
+}
+.relogio {
+  font-size: 4em;
+}
+
+.pausado {
+  color: rgba(253, 49, 49, 0.652);
+}
+
